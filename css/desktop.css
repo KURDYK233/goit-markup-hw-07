@@ -1,0 +1,88 @@
+.container {
+    max-width: 1158px;
+    padding: 0 15px;
+}
+
+.hero {
+    max-width: 1440px;
+    max-height: 600px;
+}
+
+/*----about*/
+.about {
+    padding: 120px 0 120px 0;
+    margin: 0 auto;
+}
+
+.about-soc-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 112px;
+    background-color: #F4F4FD;
+    border-radius:  4px ;
+    margin-bottom: 8px;
+}
+
+.about-title {
+    font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+}
+
+.about-paragraph {
+    font-weight: 400;
+    width: 264px;
+}
+
+.info {
+    padding-bottom: 120px;
+    display: block;
+}
+
+.team {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+
+.team-list {
+    flex-wrap: nowrap;
+    flex-direction: row;
+    gap: 24px;
+}
+
+.customers-list {
+    gap: 72px 24px;
+}
+
+.footer-list {
+    margin-right: 120px;
+}
+
+.footer-soc-list {
+    
+}
+
+.footer-form-container {
+    
+}
+
+.footer-input {
+    width: 264px;
+}
+
+.adress-list {
+    display: flex;
+}
+
+.footer-form {  
+
+}
+
+.header {
+    padding: 0;
+}
+
+    
+

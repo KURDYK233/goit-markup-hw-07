@@ -1,0 +1,140 @@
+
+.container {
+    max-width: 768px;
+}
+
+.hero {
+    max-width: 768px;
+    max-height: 436px;
+}
+
+/*----about*/
+
+.about-list {
+      display: flex;
+      justify-content: start;
+      align-items: start;
+      flex-direction: row;
+      flex-wrap: wrap;
+}
+
+.about-list {
+   gap: 24px    ;
+}
+
+.about-title {
+    display: block;
+}
+
+.about-paragraph {
+    width: 356px;
+height: 72px;
+margin-bottom: 72px;
+}
+
+.header {
+    padding-top: 25px 0;
+    padding-bottom: 0;
+}
+
+@media screen and (max-width: 1157px) {
+    .team .container, .customers .container, .footer .container {
+        max-width: 584px;
+    }
+}
+
+.team-list {
+    gap: 24px;
+}
+
+.team-list {
+    display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: row;
+      flex-wrap: wrap;
+}
+
+.customers-link {
+    width: 168px;
+    height: 88px;
+}
+
+.customers-list {
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.footer-container {   
+    gap: 24px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.footer-list {
+    justify-content: start;
+    align-items: start;
+}
+
+.footer-form {
+    display: flex;
+}
+
+.footer-form-text {
+    display: block;
+}
+
+.footer-input {
+   
+}
+
+.button-form {
+    margin-left: 24px;
+}
+
+.footer-input {
+    width: 264px;
+}
+
+.mobile-menu {
+    display: none;
+}
+
+.header-item {
+    display: flex; 
+ 
+}
+
+.adress-list {
+   
+}
+
+.adress-item-li {
+    display: flex;
+    
+    flex-wrap: wrap;
+}
+
+.header-logo-color {
+    margin-right: 120px;
+    }
+
+    .nav-list {
+        
+    }
+
+    .modal {
+        max-width: 408px;
+    }
+
+    
+
+
+
+
+
+
+
