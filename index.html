@@ -18,14 +18,15 @@
             <div class="container header-container">
             <nav class="header-nav">
             <a class="header-logo link header-logo-style" href="./index.html">Web<span class="header-logo-color">Studio</span></a>
-            <ul class="nav-list list">
-                <button class="mobile-menu" type="button" data-menu-open>
-                    <svg class="menu-svg" width="32" height="22">
-                        <use href="./images/icons.svg#icon-charm_menu-hamburger">
+            <button class="mobile-menu" type="button" data-menu-open>
+                <svg class="menu-svg" width="32" height="22">
+                    <use href="./images/icons.svg#icon-charm_menu-hamburger">
 
-                    </use>
-                </svg>
-                </button>
+                </use>
+            </svg>
+            </button>
+            <ul class="nav-list list">
+            
                 <li class="header-item"><a class="header-link studio-style link" href="./index.html">Studio</a></li>
                 <li class="header-item"><a class="header-link link" href="./portfolio.html">Portfolio</a></li>
                 <li class="header-item"><a class="header-link link" href="">Contacts</a></li>
@@ -41,11 +42,11 @@
         <div class="mob-menu is-hidden" data-menu>
                 <div><button type="button" class="close-pos" data-menu-close><svg class="modal-icon-close " width="8" height="8"><use href="./images/icons.svg#icon-close-black-18dp-2-1"></use></svg></button>
                 <ul class="mob-menu-list list">
-                    <li class="mob-menu-item"><a class="mob-header-link link" href="./index.html">Studio</a></li>
+                    <li class="mob-menu-item"><a class="mob-header-link studio-style-mob link" href="./index.html">Studio</a></li>
                 <li class="mob-menu-item"><a class="mob-header-link link" href="./portfolio.html">Portfolio</a></li>
                 <li class="mob-menu-item"><a class="mob-header-link link" href="">Contacts</a></li>
                 </ul></div>
-                <div><address class="mob-menu-adress">
+                <address class="mob-menu-adress">
                     <ul class="mob-menu-list list">
                         <li class="mob-menu-item-li"> <a class="mob-tel-item link" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
                 <li class="mob-menu-item-li"> <a class="mob-email-item link" href="mailto:info@devstudio.com" target="_blank">info@devstudio.com</a> </li>
@@ -56,7 +57,7 @@
                     <li class="mob-soc-item"><a class="footer-soc-link link" target="_blank" rel="noopener noreferrer" href=""><svg class="footer-soc-icons" width="24" height="24"><use href="./images/icons.svg#icon-facebook-1"></use></svg></a></li>
                     <li class="mob-soc-item"><a class="footer-soc-link link" target="_blank" rel="noopener noreferrer" href=""><svg class="footer-soc-icons" width="24" height="24"><use href="./images/icons.svg#icon-linkedin-1-1"></use></svg></a></li>
                    </ul>
-                </address></div>
+                </address>
         </div>
         </header> 
         <main>
@@ -190,8 +191,8 @@
             <div class="footer-form-container">
                 <p class="footer-form-text">Subscribe</p>
                 <form name="email-form" class="footer-form">
-                    <label for="user-email" class="footer-label"><input id="user-email" type="email" name="email" placeholder="E-mail" class="footer-input" required></label>
-                        
+                    <input id="user-email" type="email" name="email" placeholder="E-mail" class="footer-input" required>
+                    <label for="user-email" class="footer-label"></label>
                     
                     
                         <button id="button-footer" type="submit" class="button-form">Subscribe <svg class="footer-form-svg" width="24" height="24"><use href="./images/icons.svg#icon-Frame-3-3"></use></svg></button>
