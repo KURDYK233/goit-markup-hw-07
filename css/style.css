@@ -775,7 +775,7 @@ margin-bottom: 72px;
 }
 
 .customers-link {
-    width: calc(100% - 16px);
+   width: 190px;
     height: 80px;
     border: 1px solid #8E8F99;
 border-radius: 4px;
