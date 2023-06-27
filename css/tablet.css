@@ -9,9 +9,11 @@
 }
 
 .hero-title {
-    width: 496px;
-    height: 120px;
+    max-width: 496px;
     margin-bottom: 36px;
+    font-size: 56px;
+line-height: 1.07;
+
 }
 
 /*----about*/
@@ -29,13 +31,19 @@
 }
 
 .about-title {
-    display: block;
+   text-align: start;
+
 }
 
 .about-paragraph {
     width: 356px;
-height: 72px;
+}
 
+.adress-item {
+
+    font-size: 12px;
+line-height: 1.16;
+letter-spacing: 0.48px;
 }
 
 .header {
@@ -93,7 +101,6 @@ height: 72px;
 
 .footer-soc-container {
     margin-top: 0;
-    margin-left: 24px;
 }
 
 .footer-c
@@ -111,6 +118,10 @@ height: 72px;
 }
 
 .footer-form-text {
+    text-align: start;
+}
+
+.footer-soc-text {
     text-align: start;
 }
 
@@ -143,6 +154,14 @@ height: 72px;
 
 .header-logo {
     margin-right: 120px;
+}
+
+.adress-item-li {
+    margin-bottom: 12px;
+}
+
+.mob-tel-item {
+    
 }
 
 .header-logo-color {

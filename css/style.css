@@ -116,7 +116,8 @@ color: var(--title-color);
 }
 
 .mobile-menu {
-
+    display: block;
+margin-left: auto;
     background-color: transparent;
     border: none;
 }
@@ -207,7 +208,7 @@ border-radius: 2px;
     z-index: 100;
     background: var(--white, #FFF);
 box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 2px 1px 0px rgba(46, 47, 66, 0.08);
-padding: 24px 24px 40px 40px;
+padding: 80px 24px 40px 40px;
 display: flex;
 flex-direction: column;
 justify-content: space-between;
@@ -279,10 +280,7 @@ color: #4D5AE5;
 
 .mob-menu-adress {
     font-style: normal;
-    font-size:36px;
-font-weight: 700;
-line-height: 1.11;
-letter-spacing: 0.72px;
+   
 }
 
 .mob-menu-item-li {
@@ -305,7 +303,7 @@ letter-spacing: 0.72px;
 .mob-soc-list {
     margin-top: 48px;
     display: flex;
-    gap: 56px;
+    gap: 33px;
 }
 .mob-soc-item {
     width: 40px;
@@ -319,6 +317,9 @@ letter-spacing: 0.72px;
 
 
 /*--------------------------HERO----------------------*/
+
+
+
 .hero {
     padding: 112px 0 112px 0; 
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/pepe-office.jpg);
@@ -336,6 +337,7 @@ letter-spacing: 0.72px;
 }
 
 .hero-title {
+    text-align: center;
     font-size: 36px;
 line-height: 1.11;
 letter-spacing: 0.02em;
@@ -701,9 +703,11 @@ letter-spacing: 0.04em;
 color: #FFFFFF;
 background-color: transparent;
 
+
 }
 
 .footer-label {
+    display: block;
     margin-bottom: 16px;
 }
 
@@ -1014,7 +1018,8 @@ transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-b
     left: 50%;
     transform: translate(-50%, -50%) scalex(1);
     transition: transform 300ms;
-    width: 326px;
+    max-width: 392px;
+    width: 100%;
     min-height: 584px;
     background-color: #FCFCFC;
     padding:72px 24px 24px 24px;

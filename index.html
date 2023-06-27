@@ -18,14 +18,9 @@
             <div class="container header-container">
             <nav class="header-nav">
             <a class="header-logo link header-logo-style" href="./index.html">Web<span class="header-logo-color">Studio</span></a>
-            <button class="mobile-menu" type="button" data-menu-open>
-                <svg class="menu-svg" width="32" height="22">
-                    <use href="./images/icons.svg#icon-charm_menu-hamburger">
-
-                </use>
-            </svg>
-            </button>
+           
             <ul class="nav-list list">
+                
             
                 <li class="header-item"><a class="header-link studio-style link" href="./index.html">Studio</a></li>
                 <li class="header-item"><a class="header-link link" href="./portfolio.html">Portfolio</a></li>
@@ -38,7 +33,15 @@
             <li class="adress-item-li"> <a class="adress-item link" href="tel:+110001111111">+11 (000) 111-11-11</a> </li>
             </ul>
             </address>
+            <button class="mobile-menu" type="button" data-menu-open>
+                <svg class="menu-svg" width="32" height="22">
+                    <use href="./images/icons.svg#icon-charm_menu-hamburger">
+    
+                </use>
+            </svg>
+            </button>
         </div>
+        
         <div class="mob-menu is-hidden" data-menu>
                 <div><button type="button" class="close-pos" data-menu-close><svg class="modal-icon-close " width="8" height="8"><use href="./images/icons.svg#icon-close-black-18dp-2-1"></use></svg></button>
                 <ul class="mob-menu-list list">
@@ -63,6 +66,20 @@
         <main>
            <section class="hero">
                 <div class="container hero-container">
+                    <picture>
+                        <source srcset="./images/people-office-1-des (4).jpg 1x,
+                         ./images/people-office-2-des (4).jpg 2x"
+                        media="(min-width: 1158px)"
+                        />
+                        <source srcset="./images/people-office-1-mob (4).jpg 1x,
+                         ./images/people-office-2-mob (4).jpg 2x"
+                        media="(min-width: 768px)"
+                        />
+                        <source srcset="./images/people-office-1-mob (4).jpg 1x,
+                         ./images/people-office-2-mob (4).jpg 2x"
+                        media="(max-width: 767px)"
+                        />
+                    </picture>
             <h1 class="hero-title">Effective Solutions for Your Business</h1>
             <button type="button" class="hero-btn" data-modal-open>Order Service</button>
         </div>
@@ -98,11 +115,31 @@
             <h2 class="info-title">What are we doing</h2>
             <ul class="info-list list">
                 <li class="info-item list">
+                    <picture>
+                        <source srcset="./images/Pc-1-desktop.jpg 1x,
+                        ./images/Pc-2-desktop.jpg 2x" 
+                        media="(min-width: 1158px)"
+                        />
+                    </picture>
                     <img src="./images/image-pc.jpg" alt="image_with_PC" width="360" height="300">
                 </li>
-                <li class="info-item list"> <img src="./images/image-future.jpg" alt="future" width="360" height="300">
+                <li class="info-item list">
+                    <picture>
+                        <source srcset="./images/Phones-1-des.jpg 1x,
+                        ./images/Phones-2-des.jpg 2x"
+                        media="(min-width: 1158px)"
+                        />
+                    </picture>
+                    <img src="./images/image-future.jpg" alt="future" width="360" height="300">
                 </li>
-                <li class="info-item list"> <img src="./images/image-phone.jpg" alt="phone" width="360" height="300">   
+                <li class="info-item list">
+                    <picture>
+                        <source srcset="./images/Phone-1-des.jpg 1x,
+                        ./images/Phone-2-des.jpg 2x"
+                        media="(min-width: 1158px)"
+                        />
+                    </picture>
+                    <img src="./images/image-phone.jpg" alt="phone" width="360" height="300">   
                 </li>
             </ul>
         </div>
@@ -112,6 +149,12 @@
             <h2 class="team-title">Our Team</h2>
             <ul class="team-list list">
                 <li class="team-item list">
+                    <picture>
+                        <source srcset="./images/Team-card-1-1-des.jpg 1x,
+                        ./images/Team-card-1-2-des.jpg 2x"
+                        media="(min-width: 1158px)"
+                        />
+                    </picture>
                     <img src="./images/Mark-Guerrero.jpg" alt="Mark Guerrero" width="264" height="260">
                    <div class="card-wrap"><h3 class="team-name">Mark Guerrero</h3>
                     <p class="team-profesion">Product Designer</p>
@@ -124,6 +167,12 @@
                 </div>
                 </li>
                 <li class="team-item list">
+                    <picture>
+                        <source srcset="./images/Team-card-2-1-des.jpg 1x,
+                        ./images/Team-card-2-2-des.jpg 2x"
+                        media="(min-width: 1158px)"
+                        />
+                    </picture>
                     <img src="./images/Tom-Ford.jpg" alt="Tom Ford" width="264" height="260">
                     <div class="card-wrap"><h3 class="team-name ">Tom Ford</h3>
                     <p class="team-profesion ">Frontend Developer</p>
@@ -136,6 +185,12 @@
                 </div>
                 </li>
                 <li class="team-item list">
+                    <picture>
+                        <source srcset="./images/Team-card-3-1-des.jpg 1x,
+                        ./images/Team-card-3-2-des.jpg 2x"
+                        media="(min-width: 1158px)"
+                        />
+                    </picture>
                     <img src="./images/Camila-Garcia.jpg" alt="Camila Garcia" width="264" height="260">
                     <div class="card-wrap"><h3 class="team-name ">Camila Garcia</h3>
                     <p class="team-profesion ">Marketing</p>
@@ -148,6 +203,12 @@
                 </div>
                 </li>
                 <li class="team-item list">
+                    <picture>
+                        <source srcset="./images/Team-card-4-1-des.jpg 1x,
+                        ./images/Team-card-4-2-des.jpg 2x"
+                        media="(min-width: 1158px)"
+                        />
+                    </picture>
                     <img src="./images/Daniel-Wilson.jpg" alt="Daniel Wilson" width="264" height="260">
                     <div class="card-wrap"><h3 class="team-name">Daniel Wilson</h3>
                     <p class="team-profesion ">UI Designer</p>
@@ -191,8 +252,8 @@
             <div class="footer-form-container">
                 <p class="footer-form-text">Subscribe</p>
                 <form name="email-form" class="footer-form">
-                    <input id="user-email" type="email" name="email" placeholder="E-mail" class="footer-input" required>
-                    <label for="user-email" class="footer-label"></label>
+                    <label  class="footer-label"><input id="user-email" type="email" name="email" placeholder="E-mail" class="footer-input" required></label>   
+                    
                     
                     
                         <button id="button-footer" type="submit" class="button-form">Subscribe <svg class="footer-form-svg" width="24" height="24"><use href="./images/icons.svg#icon-Frame-3-3"></use></svg></button>

@@ -11,6 +11,8 @@
 
 .hero-title {
     margin-bottom: 48px;
+    font-size: 56px;
+line-height: 1.07;  
 }
 /*----about*/
 .about {
@@ -32,6 +34,7 @@
     font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
+text-align: start;
 }
 
 .about-paragraph {
@@ -73,11 +76,12 @@ line-height: 1.2;
 }
 
 .footer-container {
-    gap: 0;
+    gap: 0 ;
 }
 
 .footer-form-container {
     margin-top: 0;
+    margin-left: 78px;
 }
 
 .footer-form-text {
@@ -102,6 +106,12 @@ line-height: 1.2;
 
 }
 
+.adress-item {
+    font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.32px;
+}
+
 .header {
     padding: 0;
 }
@@ -109,6 +119,12 @@ line-height: 1.2;
 .header-logo {
     margin-right: 76px;
 }
+
+.modal {
+    width: 408px;
+}
+
+
 
 
     
